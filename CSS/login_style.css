@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.contener{
+    height: 510px;
+    width: 420px;
+    background: linear-gradient(red, blue, purple, green, orange);
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px orange;
+    
+
+    
+}
+.contener1{
+    height: 465px;
+    width: 375px;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 20px;
+    
+    
+}
+.contener1 h1{
+    color: rgb(1, 4, 150);
+    text-align: center;
+    
+}
+
+.input{
+    height: 50px;
+    width: 100%;
+    margin-top: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input label{
+    position: fixed;
+    top: 228px;
+    left: 627px;
+    background-color: white;
+    font-weight: bold;
+
+}
+
+#user_name, #password{
+    height: 40px;
+    width: 70%;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.input2{
+    height: 50px;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ps{
+    position: fixed;
+    top: 296px;
+    left: 627px;
+    background-color: white;
+    font-weight: bold;
+}
+
+#forget{
+    margin-left: 60%;
+    margin-top: 5%;
+}
+
+#remember_me{
+    margin-left:10%;
+    margin-top: 5%;
+    width: 2cap;
+    height: 2cap;
+    accent-color: green;
+         
+}
+
+.buttons{
+    height: auto;
+    width: 100%;
+    /* background-color: aliceblue; */
+    margin-top: 5%;
+
+
+}
+
+#btn1{
+    height: 40px;
+    width: 80%;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(17, 216, 11);
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+#btn2{
+    height: 40px;
+    width: 80%;
+    border: none;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 15px;
+    background-color: rgb(2, 27, 249);
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    margin-left: 10%;   
+}
+#signup{
+    margin: 0px;
+
+}
+  

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery  </title>
+    <link rel="stylesheet" href="E:\Collage Project 2nd year\CSS\Gallery_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1>पधारो म्हारे देस</h1>
+        </div>
+
+        <div class="nev">
+            <button> Home </button> 
+            <div class="dropdown">
+                <button class="dropbtn">Places to Visit</button>
+                <div class="dropdown-content">
+                  <a href="#">Historical Places</a>
+                  <a href="#">Divotional Places</a>
+                  <a href="#">Adventur Places</a>
+                  <a href="#">Wildlife Places</a>
+                </div>
+            </div>
+            <button> Events & Festivals </button>
+            <!-- <button> Gallery </button> -->
+            <button> About </button>
+            <input type="text" id="search_bar" placeholder="Search">
+            <button type="submit" style="margin-left: -100px; color: brown;"><i class="fa fa-search"></i></button>
+            <button> <i class="fa fa-user" id="user_name_icon"></i> </button>
+            
+        </div>
+    </div>
+
+    <!-- The expanding image container -->
+    <div class="container">
+    <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+        <img id="expandedImg">
+  
+    <!-- Image text -->
+        <div id="imgtext"></div>
+    </div>
+    <!-- The grid: four columns -->
+<div class="row">
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Jaipur Picture\hawamahal.jpeg" alt="Hawa Mahal" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Ajmer Picture\Amer_Fort_Entrance.jpg" alt="Snow" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Jaisalmer Picture\Jaisalmer_Fort_-_Rajasthan.jpg" alt="Mountains" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Jodhpur Picture\Mehrangarh_Fort_sanhita.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+        <img src="E:\Collage Project 2nd year\Images\Jaipur Picture\Amber_Fort.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+        <img src="E:\Collage Project 2nd year\Images\Jaipur Picture\Nahargarh.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Jaipur Picture\Jantar_Mantar_at.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Jaipur Picture\Narghar_fort.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Jaipur Picture\World_Trade_Park_Jaipur.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Jaipur Picture\jalmahal.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Jodhpur Picture\Jaswant_Thada_cenotaph,_Jodhpur.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Kota Picture\Chambal-river-gorge.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Kota Picture\Jag_Mandir_Kota.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Kota Picture\Karna_Ghatotkacha_fight_sculpture,_Kota_Rajasthan_India.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Kota Picture\Chambal-river-gorge.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+    <div class="column">
+      <img src="E:\Collage Project 2nd year\Images\Slider Picture\1st.jpg" alt="Lights" onclick="myFunction(this);" >
+    </div>
+</div>
+
+
+
+<div class="footer">
+  <!-- this is footer  -->
+</div>
+  
+  
+
+  <script>
+function myFunction(imgs) {
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
+}
+  </script>
+</body>
+</html>

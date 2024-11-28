@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advenctur Places</title>
+    <link rel="stylesheet" href="D:\Collage Project 2nd year\CSS\Advenctur_Places_style.css">
+    <link rel="shortcut icon" href="D:\Collage Project 2nd year\Images\logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="message">
+        <p>😎 पधारो म्हारे देस</p>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <img src="D:\Collage Project 2nd year\Images\logo.png" alt="" height="50px", width="50px">
+            <h1>Welcome to Rajasthan</h1>
+        </div>
+        <div class="nev">
+            <a href="index.html"><button> HOME </button></a>
+            <div class="dropdown">
+                <button class="dropbtn">PLACE TO VISIT</button>
+                <div class="dropdown-content">
+                  <a href="Historical_places.html">Historical Places</a>
+                  <a href="Divotional_Places.html">Divotional Places</a>
+                  <a href="Advenctur_Places.html">Adventur Places</a>
+                  <a href="Wildlife_Places.html">Wildlife Places</a>
+                </div>
+            </div>
+            <a href="D:\Collage Project 2nd year\HTML\EVENTS_AND_FESTIVALS .html"><button> EVENTS & FESTIVALS </button></a>
+            <!-- <button> Gallery </button> -->
+            <a href="About.html"><button> ABOUT </button></a>
+            
+            <button onclick="openDialog()"> <i class="fa fa-user" id="user_name_icon"></i> </button>
+            <dialog id="myDialog">
+                <div class="profile_picture"></div>
+                <h2 id="uN">User Name</h2>
+                <p>Hello, this is some text within the dialog!</p>
+                <button onclick="closeDialog()" id="close_button">X</button>
+            </dialog>
+            <script>
+                const myDialog = document.getElementById('myDialog');
+
+                function openDialog() {
+                  myDialog.showModal(); // Open the dialog
+                }
+                
+                function closeDialog() {
+                  myDialog.close(); // Close the dialog
+                }
+            </script>
+            
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="data">
+            <img src="D:\Collage Project 2nd year\Images\Mount Abu\trekking.jpg" alt="Fair">
+            <br><br>
+            <div class="text">
+                <h2>Mount Abu </h2>
+                <p>Mount Abu is a hill station in the Aravalli Range in the Sirohi district of the state of Rajasthan in western India. 
+                    The mountain forms a rocky plateau 22 km long by 9 km wide. The highest peak on the mountain is Guru Shikhar at 1,722 m 
+                    (5,650 ft) above sea level. It is referred to as 'an oasis in the desert' as its heights are home to rivers, lakes, 
+                    waterfalls and evergreen forests. It is also home to numerous Hindu and Jain temples. The nearest train station is 
+                    Abu Road railway station 28 km away.
+                <br>
+                <br>
+                Mount Abu is a hill station in the Aravalli Range in the Sirohi district of the state of Rajasthan in western India. 
+                The mountain forms a rocky plateau 22 km long by 9km wide. Other than its scenic beauty, Mount Abu is also popular as a 
+                seat of religious importance for Jains. The structural architectural wonders in Mount Abu, among other places to visit, 
+                have been drawing history buffs and architecture enthusiasts from different corners of the world.</p>
+            </div>
+        </div>
+
+        <div class="data">
+            <img src="D:\Collage Project 2nd year\Images\Jaisalmer Picture\camelsafari.jpg" alt="Fair">
+            <br><br>
+            <div class="text">
+                <h2>Camel Safari Jaisalmer </h2>
+                <p>Camel Safari in Jaisalmer is one of the most sought-after sport in Jaisalmer. No other place in India provides 
+                    and experience of camel riding across the flat surface around the sand dunes and resembling the scenes of teh 
+                    Arabian Nights. Camel riding in Jaisalmer is recommended to be taken around the time of sunrise and sunset so 
+                    that you enjoy the golden sky and the rays of the sunlight making the sand dunes also look golden giving a 
+                    spectacular view. It is a thrilling experience that you will always remember in your lifetime. You can explore 
+                    teh sand dunes of Jaisalmer can be explored through Camel Safari. It is a great way to explore the ethnic and 
+                    traditional side of Rajasthan.
+                
+                </p>
+            </div>
+        </div>
+
+        <div class="data">
+            <img src="D:\Collage Project 2nd year\Images\budi.jpg" alt="Fair">
+            <br><br>
+            <div class="text">
+                <h2>Mount Abu </h2>
+                <p>Bundi, a hidden gem tucked away in the heart of Rajasthan, offers a unique blend of history and adventure. Nestled 
+                    amidst the rugged terrain of the Aravalli Range, Bundi presents an array of thrilling experiences for the adventurous soul.
+                    <BR>
+                    Adventurers in Bundi can embark on exhilarating rock climbing expeditions, scaling the ancient fort walls that overlook 
+                    the town and surrounding landscape. Rappelling down the cliffs offers a heart-pounding descent amidst stunning vistas 
+                    of the picturesque Bundi countryside.
+                    <br>
+                    Hiking trails meander through the rugged terrain, leading explorers to hidden waterfalls, serene lakes, and ancient temples 
+                    nestled in the folds of the hills. Each step unveils the rich history and natural beauty of this off-the-beaten-path destination.
+                    <br>
+                    For those seeking a taste of adrenaline, Bundi's adventure scene also includes zip-lining across scenic valleys and exploring the 
+                    underground tunnels and caves that whisper tales of a bygone era.
+                    In Bundi, adventure awaits around every corner, promising an unforgettable experience for those who dare to explore its hidden treasures.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        <!-- this is footer  -->
+        <div class="foot">
+           <img src="D:\Collage Project 2nd year\Images\rajasthanmap.png" alt="">
+        </div>
+        <div class="comment_box">
+            <form action="">
+                <h1>Comment/Suggestion</h1>
+                <label for="">Email id : </label><br>
+                <input type="email"><br>
+                <br>
+                <label for="">Comment</label><br>
+                <textarea name="comment" id=""></textarea><br>
+                <button id="clear_btn">Clear</button>
+                <button id="submit_btn" >Submit</button>
+            </form>
+
+        </div>
+
+        <div class="foot1">
+            <h2>FOLLOW US :</h2>
+            <a href="https://www.instagram.com/mr_engineer_300"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100053568714008&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+            <a href="http://t.me/ankit_prajapat_rj01"><i class="fa fa-telegram"></i></a>
+            <a href="https://youtube.com"><i class="fa fa-youtube"></i><a href=""></a>
+            <a href="https://in.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+        </div>
+
+    </div>
+
+</body>
+</html>

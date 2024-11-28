@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS & FESTIVALS</title>
+    <link rel="stylesheet" href="D:\Collage Project 2nd year\CSS\Event_and_festivals_index_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="D:\Collage Project 2nd year\Images\logo.png" type="image/x-icon">
+    <style>
+    .mySlides {display:none;}
+    </style>
+</head>
+<body>
+    <div class="message">
+        <p>😎 पधारो म्हारे देस</p>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <img src="D:\Collage Project 2nd year\Images\logo.png" alt="" height="50px", width="50px">
+            <h1>Welcome to Rajasthan</h1>
+        </div>
+        <div class="nev">
+            <a href="D:\Collage Project 2nd year\HTML\index.html"><button> HOME </button></a>
+            <div class="dropdown">
+                <button class="dropbtn">PLACE TO VISIT</button>
+                <div class="dropdown-content">
+                  <a href="Historical_places.html">Historical Places</a>
+                  <a href="Divotional_Places.html">Divotional Places</a>
+                  <a href="Advenctur_Places.html">Adventur Places</a>
+                  <a href="Wildlife_Places.html">Wildlife Places</a>
+                </div>
+            </div>
+            <a href="D:\Collage Project 2nd year\HTML\EVENTS_AND_FESTIVALS .html"><button> EVENTS & FESTIVALS </button></a>
+            <!-- <button> Gallery </button> -->
+            <a href="About.html"><button> ABOUT </button></a>
+            
+            <button onclick="openDialog()"> <i class="fa fa-user" id="user_name_icon"></i> </button>
+            <dialog id="myDialog">
+                <div class="profile_picture"></div>
+                <h2 id="uN">User Name</h2>
+                <p>Hello, this is some text within the dialog!</p>
+                <button onclick="closeDialog()" id="close_button">X</button>
+            </dialog>
+            <script>
+                const myDialog = document.getElementById('myDialog');
+
+                function openDialog() {
+                  myDialog.showModal(); // Open the dialog
+                }
+                
+                function closeDialog() {
+                  myDialog.close(); // Close the dialog
+                }
+
+                // function speakParagraph() {
+                // var paragraph = document.getElementById("paragraphToSpeak").textContent;
+                // var speech = new SpeechSynthesisUtterance(paragraph);
+                // speech.lang = 'hi-In';
+                // window.speechSynthesis.speak(speech);
+                // }
+            </script>
+            
+        </div>
+    </div>
+
+
+    <div class="main">
+
+        <div id="se1">
+            <h1>Top 5 Most Visted Festivals</h1>
+            <input type="text" id="search_bar" placeholder="Search">
+            <button type="submit" id="search_btn"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="data">
+            <img src="D:\Collage Project 2nd year\Images\Pushkar Picture\fair.jpg" alt="Fair">
+            <div class="text">
+                <h2>PUSHKAR FAIR</h2>
+                <p id="paragraphToSpeak">Held each November at the time of the Kartik Purnima full moon, Pushkar
+                 Camel Fair is one of India’s most highly-rated travel experiences, 
+                 a spectacle on an epic scale, attracting thousands of camels, horses 
+                 and cattle and visited by over 400,000 people over a period of around 
+                 fourteen days.
+                <br>
+                <br>
+                For visitors it’s a once-in-a-lifetime opportunity to witness the colour,
+                     spectacle and carnival of one of the last great traditional melas, 
+                     which brings livestock, farmers, traders and villagers from all over 
+                     Rajasthan. We believe that every aspect of such an experience should 
+                     be special.</p>
+                
+                <!-- <button onclick="speakParagraph()">Speak  </button> -->
+
+            </div>
+        </div>
+
+        <div class="data">
+            <img src="D:\Collage Project 2nd year\Images\Jaisalmer Picture\Desert-Festival.jpg" alt="Fair">
+            <div class="text">
+                <h2>DESERT FESTIVALS</h2>
+                <p>Desert Festival in Jaisalmer is an annual event of three days held in 
+                    the month of Magh (February), before the full moon with pomp and pride. 
+                    The last day falls on the full moon day. This year the Desert Festival 
+                    will be held on 22- 24 February. The festival has various programmes 
+                    placed at different venues in and around Jaisalmer concluding at Sam 
+                    Dunes which is 42 km from the city of Jaisalmer.</p>
+                
+                <p>Jaisalmer Desert Festival is one of its kind and takes you on a 
+                    mesmerizing journey of experiencing the city’s rich cultural 
+                    heritage of performing arts, local artistry, beautiful wood 
+                    carvings, and lip-smacking regional delicacies. Artists, musicians 
+                    and dancers from various parts of Rajasthan paint Jaisalmer into 
+                    a beautiful canvas of fun, thrill and excitement.</p>
+
+            </div>
+        </div>
+
+        <div class="data">
+            <img src="D:\Collage Project 2nd year\Images\Udaipur Picture\mewar-festival.jpg" alt="Fair">
+            <div class="text">
+                <h2>MEWAR FESTIVALS</h2>
+                <p>The Marwar Festival, celebrated in the Marwar region of Rajasthan,
+                     India, is a vibrant showcase of the rich cultural heritage of the
+                      area. It usually takes place in the city of Jodhpur, the cultural 
+                      capital of Marwar. The festival is a two-day event held annually 
+                      in the month of Ashwin (September-October), during the full moon.
+                </p>
+                
+                <p>Marwar Festival is primarily dedicated to showcasing the art, music, 
+                    dance, and traditions of Rajasthan, particularly those of the Marwar 
+                    region. It offers visitors a glimpse into the royal past of Rajasthan, 
+                    with various cultural events and performances held against the backdrop 
+                    of historical monuments like Mehrangarh Fort and Umaid Bhawan Palace.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="data">
+            <img src="D:\Collage Project 2nd year\Images\Jaisalmer Picture\kumbhalgarh-fastival1.jpeg" alt="Fair">
+            <div class="text">
+                <h2>KUMBHALGARH FESTIVALS</h2>
+                <p>Rajasthan is well known among the global travelers for its rich culture 
+                    and tradition, a truly blissful one to enjoy and explore. Kumbhalgarh 
+                    is one such festival commemorating the patronage of Maharana Kumbh to 
+                    arts and culture during his reign.
+                </p>
+                
+                <p>The three days festival includes lot of fun filled activities, trade 
+                    shows and performances by artistes. It is so appealing to have all 
+                    categories of shows under one roof that too with the elegant backdrop 
+                    of Kumbhalagrh fort, which is acclaimed to be the second largest 
+                    next to the great wall of China.
+                </p>
+                
+                <p>
+                    The day’s schedule is in two sections. One is for encouraging the 
+                    native artisans to showcase their talents in the form of jewelry, 
+                    ethnic wear, handicrafts and other things. The second section is 
+                    usually during the evenings when the audience are entertained 
+                    with various cultural shows. The events are so engaging and 
+                    vibrant that many times the onlookers join the club to stage 
+                    their talents.
+                </p>
+            </div>
+        </div>
+
+        <div class="data">
+            <img src="D:\Collage Project 2nd year\Images\Jaisalmer Picture\ranakpur-fastival.jpeg" alt="Fair">
+            <div class="text">
+                <h2>RANAKPUR FESTIVALS</h2>
+                <p> Ranakpur, located in the Pali district of Rajasthan, is famous 
+                    for its intricate Jain temples, particularly the renowned Ranakpur 
+                    Jain Temple. This architectural marvel, built in the 15th century, 
+                    serves as the backdrop for the festival.</p>
+                
+                <p>The Ranakpur Festival is usually held in December or January, 
+                    coinciding with the winter season when the weather is pleasant 
+                    in Rajasthan.</p>
+
+                <p> The festival is a vibrant celebration of Jain culture, music, 
+                    dance, and traditions. It attracts both locals and tourists 
+                    who come to witness the grandeur of the temple and partake 
+                    in the festivities.</p>
+
+                <p>During the festival, the temple premises come alive with 
+                    various cultural performances, including classical music 
+                    concerts, folk dances, and recitals. Renowned artists from 
+                    across India showcase their talent, adding to the festive ambiance.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        <!-- this is footer  -->
+        <div class="foot">
+           <img src="D:\Collage Project 2nd year\Images\rajasthanmap.png" alt="">
+        </div>
+        <div class="comment_box">
+            <form action="">
+                <h1>Comment/Suggestion</h1>
+                <label for="">Email id : </label><br>
+                <input type="email"><br>
+                <br>
+                <label for="">Comment</label><br>
+                <textarea name="comment" id=""></textarea><br>
+                <button id="clear_btn">Clear</button>
+                <button id="submit_btn" >Submit</button>
+            </form>
+
+        </div>
+
+        <div class="foot1">
+            <h2>FOLLOW US :</h2>
+            <a href="https://www.instagram.com/mr_engineer_300"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100053568714008&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+            <a href="http://t.me/ankit_prajapat_rj01"><i class="fa fa-telegram"></i></a>
+            <a href="https://youtube.com"><i class="fa fa-youtube"></i><a href=""></a>
+            <a href="https://in.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

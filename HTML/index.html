@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Rajasthan</title>
+    <link rel="stylesheet" href="D:\Collage Project 2nd year\CSS\index_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="D:\Collage Project 2nd year\Images\logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="message">
+        <p>😎 पधारो म्हारे देस</p>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <img src="D:\Collage Project 2nd year\Images\logo.png" alt="">
+            <h1>Welcome to Rajasthan</h1>
+        </div>
+        <div class="nev">
+            <a href="index.html"><button> HOME </button></a>
+            <div class="dropdown">
+                <button class="dropbtn">PLACE TO VISIT</button>
+                <div class="dropdown-content">
+                  <a href="Historical_places.html">Historical Places</a>
+                  <a href="Divotional_Places.html">Divotional Places</a>
+                  <a href="Advenctur_Places.html">Adventur Places</a>
+                  <a href="Wildlife_Places.html">Wildlife Places</a>
+                </div>
+            </div>
+            <a href="EVENTS_AND_FESTIVALS .html"><button> EVENTS & FESTIVALS </button></a>
+            <!-- <button> Gallery </button> -->
+            <a href="About.html"><button> ABOUT </button></a>
+            
+            <button onclick="openDialog()"> <i class="fa fa-user" id="user_name_icon"></i> </button>
+            <dialog id="myDialog">
+                <div class="profile_picture"></div>
+                <h2 id="uN">Guest</h2>
+                <font>Id No.:</font>
+                <p>124563251245</p>
+                <button onclick="closeDialog()" id="close_button">X</button>
+            </dialog>
+            <script>
+                const myDialog = document.getElementById('myDialog');
+
+                function openDialog() {
+                  myDialog.showModal(); // Open the dialog
+                }
+                
+                function closeDialog() {
+                  myDialog.close(); // Close the dialog
+                }
+            </script>
+            
+        </div>
+    </div>
+
+    <Section class="img-slider">
+        <div class="slider-container">
+          
+            <div class="slide">
+                <img src="D:\Collage Project 2nd year\Images\Slider Picture\1st.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="D:\Collage Project 2nd year\Images\Slider Picture\2nd.jpeg" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="D:\Collage Project 2nd year\Images\Slider Picture\4th.jpeg" alt="Image 3">
+            </div>
+            
+        </div>
+
+      </Section>
+
+      
+      
+      
+
+    
+
+    <div class="main">
+        
+        <!-- this is the main data -->
+        <div id="se1">
+            <h2>Top 10 Most visted places in Rajastan</h2>
+            <input type="text" id="search_bar" placeholder="Search">
+            <button type="submit" id="search_btn"><i class="fa fa-search"></i></button>
+        </div>
+        <hr width="50%" color="brown">
+        <br>
+        <br>
+
+        <div class="inner">
+
+            <div class="container">
+                <img src="D:\Collage Project 2nd year\Images\Jaipur Picture\hawamahal.jpeg" alt="Avatar" class="image" id="hawa_img">
+                <div class="overlay">
+                    <div class="text">
+                        <font>Jaipur</font>
+                        <br>
+                        <p>The capital city of Rajasthan, known as the Pink City, famous for its historical landmarks such as 
+                            Amber Fort, City Palace, and Hawa Mahal.</p>
+                            
+                        <a href="Jaipur.html"><button> Veiw More </button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="D:\Collage Project 2nd year\Images\Ajmer Picture\Amer_Fort_Entrance.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <font>Ajmer</font>
+                        <p> Home to the famous Ajmer Sharif Dargah, a major pilgrimage site for Muslims, and the picturesque Ana Sagar Lake.</p>
+                        <button> Veiw More </button>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="container">
+                <img src="D:\Collage Project 2nd year\Images\Jaisalmer Picture\Jaisalmer_Fort_-_Rajasthan.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <font>Jaisalmer</font>
+                        <p>In the proud desert city, Jaisalmer tourism provides visitors an 
+                        opportunity to take a glimpse into the past glories of the region. 
+                        A tour to the city of Jaisalmer boasts a unique experience and definitely 
+                        something one has to undertake when traveling in India. Situated in the heart 
+                        of the Thar Desert, it is an ideal destination to witness natural beauty of the desert. 
+                        The interesting part of the tour of the Golden City is that Sonar Quila, one of the 
+                        prominent tourist attractions, is a living fort where hundreds of people still inhabit.</p>
+
+                        <button> Veiw More </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="D:\Collage Project 2nd year\Images\Bhangarh Fort\5.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">
+                            <font>Bhangarh Fort</font>
+                        <p>Bhangarh Fort is known as the most haunted place in India, and perhaps the greatest 
+                            unsolved mystery. There is no doubting the fact that anything associated with the 
+                            supernatural attracts a huge amount of attention and the deserted city of Bhangarh 
+                            cashes in on that very idea. The many haunted stories of Bhangarh Fort have transformed 
+                            it into a bucket list destination of sorts.</p>
+
+                        <button> Veiw More </button>
+                    </div>
+                </div>
+            </div>
+
+                     
+            <div class="container" >
+                <img src="D:\Collage Project 2nd year\Images\Jodhpur Picture\Mehrangarh_Fort_sanhita.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">
+                        <font>Jodhpur</font>
+                        <p>Known as the Blue City, with attractions like Mehrangarh Fort, Jaswant Thada, and Umaid Bhawan Palace.</p>
+                        <button> Veiw More </button>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="container" >
+                <img src="D:\Collage Project 2nd year\Images\Udaipur Picture\first.jpg" alt="Avatar" class="image" id="hawa_img">
+                <div class="overlay">
+                    <div class="text">
+                        <font>Udaipur</font>
+                        <p>Often referred to as the City of Lakes, famous for its picturesque lakes, palaces, and 
+                            temples, including Lake Pichola, City Palace, and Jag Mandir.</p>
+                        <button> Veiw More </button>
+                    </div>
+                </div>
+            </div>
+
+         
+
+            <div class="container">
+                <img src="D:\Collage Project 2nd year\Images\Kota Picture\Jag_Mandir_Kota.jpg" alt="Avatar" class="image" >
+                <div class="overlay">
+                    <div class="text">
+                        <font>Kota</font>
+                        <p>Known for its historical forts, palaces, and gardens, including Kota Fort, 
+                            Chambal Garden, and Jag Mandir Palace.</p>
+
+                        <button> Veiw More </button>
+                    </div>
+                </div>
+            </div>
+
+         </div>
+
+
+       
+
+    </div>
+
+    
+    <div class="footer">
+        <!-- this is footer  -->
+        <div class="foot">
+           <img src="D:\Collage Project 2nd year\Images\rajasthanmap.png" alt="">
+        </div>
+        <div class="comment_box">
+            <form action="E:\Collage Project 2nd year\java script\PHP\index.php" method="post">
+                <h1>Comment/Suggestion</h1>
+                <label for="">Email id : </label><br>
+                <input type="email"><br>
+                <br>
+                <label for="">Comment</label><br>
+                <textarea name="comment" id=""></textarea><br>
+                <button id="clear_btn">Clear</button>
+                <button id="submit_btn" >Submit</button>
+            </form>
+
+        </div>
+
+        <div class="foot1">
+            <h2>FOLLOW US :</h2>
+            <a href="https://www.instagram.com/mr_engineer_300"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100053568714008&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+            <a href="http://t.me/ankit_prajapat_rj01"><i class="fa fa-telegram"></i></a>
+            <a href="https://youtube.com"><i class="fa fa-youtube"></i><a href=""></a>
+            <a href="https://in.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+        </div>
+
+    </div>
+
+    
+
+    <script src="D:\Collage Project 2nd year\java script\index.js"></script>
+</body>
+</html>

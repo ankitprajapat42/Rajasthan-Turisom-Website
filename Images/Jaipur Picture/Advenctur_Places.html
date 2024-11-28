@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advenctur Places</title>
+    <link rel="stylesheet" href="E:\Collage Project 2nd year\CSS\Advenctur_Places_style.css">
+    <link rel="shortcut icon" href="E:\Collage Project 2nd year\Images\logo1.png" type="image/x-icon">
+</head>
+<body>
+    <div class="message">
+        <p>😎 पधारो म्हारे देस</p>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <img src="E:\Collage Project 2nd year\Images\logo.png" alt="" height="50px", width="50px">
+            <h1>Welcome to Rajasthan</h1>
+        </div>
+        <div class="nev">
+            <a href="E:\Collage Project 2nd year\HTML\index.html"><button> HOME </button></a>
+            <div class="dropdown">
+                <button class="dropbtn">PLACE TO VISIT</button>
+                <div class="dropdown-content">
+                  <a href="Historical_places.html">Historical Places</a>
+                  <a href="Divotional_Places.html">Divotional Places</a>
+                  <a href="Advenctur_Places.html">Adventur Places</a>
+                  <a href="#">Wildlife Places</a>
+                </div>
+            </div>
+            <a href="E:\Collage Project 2nd year\HTML\EVENTS_AND_FESTIVALS .html"><button> EVENTS & FESTIVALS </button></a>
+            <!-- <button> Gallery </button> -->
+            <button> ABOUT </button>
+            
+            <button onclick="openDialog()"> <i class="fa fa-user" id="user_name_icon"></i> </button>
+            <dialog id="myDialog">
+                <div class="profile_picture"></div>
+                <h2 id="uN">User Name</h2>
+                <p>Hello, this is some text within the dialog!</p>
+                <button onclick="closeDialog()" id="close_button">X</button>
+            </dialog>
+            <script>
+                const myDialog = document.getElementById('myDialog');
+
+                function openDialog() {
+                  myDialog.showModal(); // Open the dialog
+                }
+                
+                function closeDialog() {
+                  myDialog.close(); // Close the dialog
+                }
+            </script>
+            
+        </div>
+    </div>
+
+    <div class="main">
+        <h1>Coming Zoon...........</h1>
+    </div>
+
+    <div class="footer">
+        <!-- this is footer  -->
+        <div class="foot">
+           <img src="E:\Collage Project 2nd year\Images\rajasthanmap.png" alt="">
+        </div>
+        <div class="comment_box">
+            <form action="">
+                <h1>Comment/Suggestion</h1>
+                <label for="">Email id : </label><br>
+                <input type="email"><br>
+                <br>
+                <label for="">Comment</label><br>
+                <textarea name="comment" id=""></textarea><br>
+                <button id="clear_btn">Clear</button>
+                <button id="submit_btn" >Submit</button>
+            </form>
+
+        </div>
+
+        <div class="foot1">
+            <h2>FOLLOW US :</h2>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-telegram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-pinterest"></i>
+        </div>
+
+    </div>
+
+</body>
+</html>

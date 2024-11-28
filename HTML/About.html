@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="D:\Collage Project 2nd year\CSS\About.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="D:\Collage Project 2nd year\Images\logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="message">
+        <p>😎 पधारो म्हारे देस</p>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <img src="D:\Collage Project 2nd year\Images\logo.png" alt="" height="50px", width="50px">
+            <h1>Welcome to Rajasthan</h1>
+        </div>
+        <div class="nev">
+            <a href="D:\Collage Project 2nd year\HTML\index.html"><button> HOME </button></a>
+            <div class="dropdown">
+                <button class="dropbtn">PLACE TO VISIT</button>
+                <div class="dropdown-content">
+                  <a href="Historical_places.html">Historical Places</a>
+                  <a href="Divotional_Places.html">Divotional Places</a>
+                  <a href="Advenctur_Places.html">Adventur Places</a>
+                  <a href="Wildlife_Places.html">Wildlife Places</a>
+                </div>
+            </div>
+            <a href="D:\Collage Project 2nd year\HTML\EVENTS_AND_FESTIVALS .html"><button> EVENTS & FESTIVALS </button></a>
+            <!-- <button> Gallery </button> -->
+            <a href="About.html"><button> ABOUT </button></a>
+            
+            <button onclick="openDialog()"> <i class="fa fa-user" id="user_name_icon"></i> </button>
+            <dialog id="myDialog">
+                <div class="profile_picture"></div>
+                <h2 id="uN">User Name</h2>
+                <p>Hello, this is some text within the dialog!</p>
+                <button onclick="closeDialog()" id="close_button">X</button>
+            </dialog>
+            <script>
+                const myDialog = document.getElementById('myDialog');
+
+                function openDialog() {
+                  myDialog.showModal(); // Open the dialog
+                }
+                
+                function closeDialog() {
+                  myDialog.close(); // Close the dialog
+                }
+            </script>
+            
+        </div>
+    </div>
+
+    <div class="main"><br>
+        <h1>About Us : </h1>
+        <p>The purpose of this proposal is to outline the development of a comprehensive Rajasthan 
+            Tourism website aimed at serving as the primary digital platform for promoting tourism,
+            facilitating trip planning, and enhancing visitor experiences in the state of Rajasthan, 
+            India. By leveraging cutting-edge technology and user-centric design, the website aims to 
+            showcase the diverse attractions, cultural heritage, and hospitality of Rajasthan to a global 
+            audience.
+        </p>
+
+        <br><br>
+        <h1>Contect Us :</h1>
+        <p>
+            <b>Email Id :</b> <a href="mailto:webdesignerajay001@gmail.com">webdesigneraja001@gmail.com</a> <br>
+            <b>Mobile No.:</b> <a href="tel:+9413812543">+91 9413812543</a> <br>
+            <b>Webdite :</b> <a href="https://ankitprajapat.netlify.app">ankitprajapat.netlify.app</a>
+        </p>
+    </div>
+    <div class="foot1">
+        <h2>FOLLOW US :</h2>
+        <a href="https://www.instagram.com/mr_engineer_300"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100053568714008&mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+        <a href="http://t.me/ankit_prajapat_rj01"><i class="fa fa-telegram"></i></a>
+        <a href="https://youtube.com"><i class="fa fa-youtube"></i><a href=""></a>
+        <a href="https://in.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+    </div>
+
+</body>
+</html>
